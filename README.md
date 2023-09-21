@@ -22,17 +22,17 @@
 
 * Чтобы собрать приложение, запустите следующую команду
 ```sh
-      dotnet build .\BracketsTestApp.sln
+    dotnet build .\BracketsTestApp.sln
 ```
 * Чтобы запустить приложение и проверить последовательность скобок:
 ```sh
-      cd .\BracketsTestApp\bin\Debug\net6.0
-      BracketsTestApp.exe ([]{()})
+    cd .\BracketsTestApp\bin\Debug\net6.0
+    BracketsTestApp.exe ([]{()})
 ```
 
 ## Схема команды
 ```sh
-	  BracketsTestApp.exe [последовательность скобок]
+    BracketsTestApp.exe [последовательность скобок]
 ```
 
 ## Результаты выполненной работы
